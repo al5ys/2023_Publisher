@@ -36,3 +36,70 @@ https://noonnu.cc/font_page/744 */
     /* 상하기준 가운데 배치 */
     align-items: center;
 }
+
+.box{
+    /* 폭을 화면 전체로 */
+    width:100vw;
+
+    height:300px;
+
+    background-color: gainsboro;
+    /* 폰트 위치 이동(자식들을 배치화 할거야) */
+    display:flex;
+    /* 좌우기준 가운데 배치 */
+    justify-content: center;
+     /* 상하기준 가운데 배치 */
+    align-items: center;
+    
+    gap:40px;
+}
+.card{
+    width:135px;
+    height: 140px;
+    background-color: white;
+    border-radius:10px;
+     /* 폰트 위치 이동(자식들을 배치화 할거야) */
+     display:flex;
+     /* 좌우기준 가운데 배치 */
+     justify-content: center;
+     /* 상하기준 가운데 배치 */
+     align-items: center;
+    /* 폰트 바꾸기 */
+    font-family:'SpoqaHanSansNeo-Regular' ;
+
+    /* card의 자식들의 배치도를 가로<->세로로 바꾸기 */
+    flex-direction: column;
+
+    /* 자식들끼리의 거리를 주는 방법 */
+    gap:10px;
+
+
+
+}
+.circle{
+    background-color: #009973;
+    
+    /* 폰트 위치 이동(자식들을 배치화 할거야) */
+    display:flex;
+    /* 좌우기준 가운데 배치 */
+    justify-content: center;
+    /* 상하기준 가운데 배치 */
+    align-items: center;
+   /* 폰트 바꾸기 */
+   font-family:'SpoqaHanSansNeo-Regular' ;
+   
+   color:white;
+   border-radius:40px;
+   width:40px;
+   height:40px;
+   /* 패딩:컨텐츠와 태그 사이 간격 */
+   padding-top:4px;
+   padding-bottom:4px;
+   padding-right:4px;
+   padding-left: 4px; 
+
+}
+.explain{
+    font-family:'SpoqaHanSansNeo-Regular' ;
+
+}
