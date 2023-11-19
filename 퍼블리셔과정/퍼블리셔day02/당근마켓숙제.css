@@ -1,0 +1,97 @@
+.full{
+    width:100vw;
+    height:100vw;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    width:100vw;
+    height:90px;
+    background-color: white;
+    font-size:30px;
+    font-weight:bold;
+    padding-left:140px;
+}
+.box{
+    width:100vw;
+    height:820px;
+    background-color: rgb(250, 231, 197);
+
+    padding-left: 140px;
+   
+}
+.card1{
+    width:100vw;
+    height:180px;
+    background-color: rgb(250,231,197);
+}
+.card2{
+    font-size: 58px;
+    font-weight: bold;
+
+}
+.card3{
+    font-size: 58px;
+    font-weight: bold;
+}
+.card4{
+    width:100vw;
+    height:33px;
+    background-color: rgb(250, 231, 197);
+}
+.card5{
+    width:100vw;
+    height:22px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.card6{
+    width:100vw;
+    font-size: 18px;
+    font-weight: lighter;
+}
+.card7{
+    width:100vw;
+    height:35px;
+    background-color: rgb(250, 231, 197);
+}
+.card8and9{
+    width:100vw;
+    height:110px;
+    background-color: rgb(250, 231, 197);
+    display: flex;
+    flex-direction: row;
+
+    gap: 10px;
+    
+}
+.card8{
+    width:190px;
+    height:55px;
+    background-color: rgb(255, 136, 0);
+    color:white;
+    font-weight:bold;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.card9{
+    width:190px;
+    height:55px;
+    background-color: rgb(255, 136, 0);
+    color:white;
+    font-weight:bold;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card10{
+    width:100vw;
+    height:180px;
+    background-color: rgb(250,231,197);
+}
