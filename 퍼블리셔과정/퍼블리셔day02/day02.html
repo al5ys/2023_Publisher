@@ -1,0 +1,66 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- css : cascading style sheet -->
+    <!-- herd="" 따옴표 사이에 ctrl+space누르고 .css를 연결해주면 된다.-->
+    <link rel="stylesheet" href="day2.css">
+    
+</head>
+<body>
+    <!-- Crtl+/를 누르면 주석처리가된다. -->
+    <!-- Tag는 꺽쇠. html은 tag방식으로 꾸며져있다. 요소(element):시작태그 콘텐츠 종료태그 순이다. -->
+    <abc>오늘 두번째 수업임</abc>
+    <div>
+        <!-- 이렇게 tag안에 tag를 또 만들 수 있다. -->
+        <div>이게</div> 
+        <div>은근</div>
+        <div>킬포임</div>
+    </div>
+    <!--요소에서 시작태그부분안에 속성(attribute)을 추가하면 다른 태그와 차별화,어떠한 속성을 지니게된다. -->
+    <div >콘텐츠 blah blah</div>
+    
+    <!-- img와 meta link와 같은 태그들을 일일히 양식을 다 치기힘드니
+    자동완성 기능으로 저 양식명을 치고 TAB을 누르면 자동완성이 된다. -->
+    <!-- img ,met ,link 태그는 끝이 없고 시작태그 단일꼴이다. -->
+    <img src="" alt="">
+    <meta>
+    <link rel="stylesheet" href="">
+    <!-- 태그는 두 종류(block과inline) -->
+    <!-- block스타일은 1줄을 다잡아먹어서 줄바꿈처럼 나오는걸 의미한다.-->
+    <!-- block스타일은 비유적으로 표현하자면 부모-자식(대주제-중주제-소주제느낌) : 자식은 부모의 크기(width) 내에서 놀아야한다. -->
+    <div>1</div>
+    <div>2</div>
+    <div>
+        <div>조부모</div>
+        <!-- 후에 이 div들 안에 width를 설정한다면(그냥 이렇게쓰면 1줄 자체를 다 차지하게되니까. 
+            컨트롤 해야할때가 있지 않겠는가?) 그럴 때 자식의 역할에 해당하는 div태그가
+            부모의 역할에 해당하는 div태그의 width내에서 놀아야한다는 느낌. 
+        ex.부모태그가 width가 700이면 그에 해당하는 자식태그는 width가 0< <700이 되야한다는 의미.-->
+        <div>
+            부모
+            <div>자식1</div>
+            <div>자식2</div>
+            <div>자식3</div>
+        </div>
+    </div>
+    <!-- 밑은 12345가 따로나오진않지만 block형식 -->
+    <div>1 2 3 4 5</div>
+    
+    <!-- inline스타일 -->
+    <span>1</span>
+    <span>2</span>
+    <!-- 본론 -->
+    <div>
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+    </div>
+    <!-- 로그인페이지 한번 만들어보자꾸나. -->
+    <div>
+        
+    </div>
+</body>
+</html>
