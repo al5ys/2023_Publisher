@@ -1,0 +1,64 @@
+.box{
+    
+    width:500px;
+    height:500px;
+
+    background-color:#FFFAE0;
+    
+
+    flex-direction: column;
+   
+
+}
+
+.banner{
+
+}
+
+.sub-banner{
+    color: #7c7c7c;
+}
+
+.buttons-box{
+    display: flex;
+    flex-direction: row;
+    /* 이 하나의 박스 안의 내용물사이의 격차 설정 */
+    gap: 10px;
+    
+}
+.button{
+    color:white;
+    font-weight: bold;
+    background-color: #FF6F0F;
+    width:180px;
+    height:56px;
+    border-radius: 10px;
+}
+
+/*
+.android-button{
+    color:white;
+    font-weight: bold;
+    background-color: #FF6F0F;
+    width:180px;
+    height:56px;
+    border-radius: 10px;
+}
+
+ 
+.appstore-button{
+    color:white;
+    font-weight: bold;
+    background-color: #FF6F0F;
+    width:180px;
+    height:56px;
+    border-radius: 10px;
+}
+*/
+
+.center{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

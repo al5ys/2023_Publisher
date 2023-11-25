@@ -1,0 +1,74 @@
+
+/*  
+@font-face {
+    font-family: 'JalnanGothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.box{
+    font-family: 'Noto Sans KR', sans-serif; 
+}
+.abc{
+    font-family: 'JalnanGothic';
+}
+*/
+
+.sns_box{
+   width:300px;
+   height:500px;
+   background-color:#B0BEC5;
+   border-radius: 10px;
+   padding-top:10px;
+   
+   
+}
+.title_box{
+    /* solid는 실선 dotted는 점선 , 1px는 두께 */
+    border:2px solid white;
+    /* 150px대신 50%라고 해줘도 된다. */
+    /* width:50%;처럼. 부모의 n% */
+    width:80%;
+    border-radius:50px ;
+    /* displat flex;없이 해보자 */
+    /* ctrl+space하면 자동완성기능된다. */
+    text-align: center;
+    /* padding은 내용물과 테두리사이의 간격 넓혀주는 기능 */
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight:bold;
+    /* margin은 padding의 반대. 외부. */
+    margin-left:auto ;
+    margin-right:auto;
+}
+.image_box{
+    width:100px;
+    height:100px;
+    background-color: white;
+    border-radius: 100%;
+    /* margin은 padding의 반대. 외부. */
+    margin-left:auto ;
+    margin-right:auto;
+    margin-top:20px;
+
+}
+
+.image_box>img{
+    width:100%;
+    height:100%;
+    border-radius: 100px;
+   
+    /* object-fit: cover
+    object-fit: contain;이 내부 사진 칸에
+    맞춰주는 기능.*/
+    object-fit: cover;
+
+   
+
+}
+.introduce_box{
+    font-size:12px;
+    text-align: center;
+   
+}
